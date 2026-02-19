@@ -1,1 +1,28 @@
+## Solucion ejercicios de capitulo 1
 
+## Objetivo
+
+Resolver los ejercicios propuestos en el Capítulo 1 del libro Flex & Bison, con el fin de aplicar modificaciones al analizador léxico y sintáctico implementado en el Example 1-5, mejorando sus funcionalidades y evaluando su comportamiento.
+
+---
+
+## Ejercicio 1
+
+**¿La calculadora acepta una línea que contiene solo un comentario? Si no, arréglalo. ¿Scanner o Parser?**
+
+Inicialmente, la calculadora no aceptaba una línea que contuviera únicamente un comentario, ya que el scanner no tenía una regla definida para reconocer este tipo de entrada, lo que ocasionaba que el parser recibiera tokens no válidos y produjera un error de sintaxis.
+
+La solución se implementó en el scanner (archivo `.l`), agregando una regla que permite ignorar comentarios de una sola línea y retornar el token EOL (End Of Line), permitiendo que el parser interprete correctamente la línea como válida.
+
+Modificación realizada en el scanner:
+
+``` bash
+lex
+"//".*      { return EOL; }
+```
+
+Adicionalmente, se modificó el parser para aceptar líneas vacías o que contengan únicamente comentarios:
+
+| calclist EOL       { }
+
+De esta forma, la calculadora ahora acepta líneas con comentarios sin generar errores.
