@@ -131,6 +131,9 @@ flex -o fb1-5.lex.c fb1-5.l
 gcc -o fb1-5 fb1-5.tab.c fb1-5.lex.c -lfl
 ```
 <img width="561" height="327" alt="Captura de pantalla 2026-02-18 223430" src="https://github.com/user-attachments/assets/571cfaed-0a49-4ef9-a1b8-77fe5844b1e5" />
+
+---
+
 <img width="315" height="116" alt="Captura de pantalla 2026-02-18 224040" src="https://github.com/user-attachments/assets/7493c7a6-57a5-4617-a169-dc5d0248e7cd" />
 
 
