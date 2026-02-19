@@ -29,11 +29,11 @@ Adicionalmente, se modificó el parser para aceptar líneas vacías o que conten
 
 De esta forma, la calculadora ahora acepta líneas con comentarios sin generar errores.
 
-<img width="540" height="374" alt="Captura de pantalla 2026-02-18 225049" src="https://github.com/user-attachments/assets/7df219ba-9afe-4a10-a9c3-4512bafaf6e0" />
+<img width="461" height="246" alt="Captura de pantalla 2026-02-18 231645" src="https://github.com/user-attachments/assets/169e4dd7-951d-4c20-b527-a8f4033efe3e" />
 
-<img width="344" height="94" alt="Captura de pantalla 2026-02-18 232933" src="https://github.com/user-attachments/assets/db58071a-2f0f-4124-9dc6-b8f6a5aef8d8" />
+<img width="344" height="94" alt="Captura de pantalla 2026-02-18 232933 - copia" src="https://github.com/user-attachments/assets/0b11be1e-b6e3-4ec9-848b-e5bd3ac1dd66" />
 
-<img width="344" height="94" alt="Captura de pantalla 2026-02-18 232933" src="https://github.com/user-attachments/assets/18ecb9c8-652a-4a84-9b79-db9d3f315667" />
+<img width="455" height="126" alt="Captura de pantalla 2026-02-18 233045" src="https://github.com/user-attachments/assets/cbf50dcc-601a-427c-bac5-6bea80f4802e" />
 
 
 ## Ejercicio 2
@@ -57,10 +57,10 @@ printf("= %d (0x%X)\n", $2, (unsigned)$2);
 echo "0xA+5" | ./calc-ej2
 
 ```
-<img width="344" height="94" alt="Captura de pantalla 2026-02-18 232933 - copia" src="https://github.com/user-attachments/assets/dd6b4da3-0cb8-4e67-97e4-bd5e1b8620b9" />
+<img width="537" height="196" alt="Captura de pantalla 2026-02-18 234655" src="https://github.com/user-attachments/assets/4c562340-449d-49eb-bb59-a6dcec9e5573" />
 
-<img width="306" height="172" alt="Captura de pantalla 2026-02-19 000155" src="https://github.com/user-attachments/assets/c0de460c-7608-419a-8377-54989f904169" />
 
+<img width="306" height="172" alt="Captura de pantalla 2026-02-19 000155" src="https://github.com/user-attachments/assets/458b104b-038e-4b81-970b-ea8b7d1f203b" />
 
 ## Ejercicio 3
 
@@ -92,7 +92,14 @@ Se agregaron dos nuevos operadores lógicos: AND y OR, representados por los sí
 
 ** Por esta razón, se optó por utilizar la palabra reservada OR para representar la operación OR bit a bit.
 
-<img width="306" height="172" alt="Captura de pantalla 2026-02-19 000155" src="https://github.com/user-attachments/assets/5ac7ae35-fc38-4f59-a64d-35acea79d389" />
+<img width="214" height="168" alt="Captura de pantalla 2026-02-19 005043" src="https://github.com/user-attachments/assets/4ca77326-00c5-43e0-90e2-54beeab4c82f" />
+
+<img width="550" height="276" alt="Captura de pantalla 2026-02-19 010427" src="https://github.com/user-attachments/assets/e1648080-dbff-4122-b661-cd856eeb08e0" />
+
+<img width="382" height="109" alt="Captura de pantalla 2026-02-19 010855" src="https://github.com/user-attachments/assets/3928f134-7e4f-4c53-8766-b17cdb88299a" />
+
+<img width="278" height="107" alt="Captura de pantalla 2026-02-19 010730" src="https://github.com/user-attachments/assets/349a92e8-5748-4dc2-b76b-6dad263a6471" />
+
 
 ## Ejercicio 4
 
@@ -160,7 +167,7 @@ time ./wc_c < grande.txt
 
 ** Se observó que la versión implementada directamente en C presenta un mejor rendimiento en comparación con la versión generada con Flex, debido a que el código escrito manualmente no incluye la sobrecarga asociada al motor de análisis léxico.
 
-<img width="560" height="270" alt="Captura de pantalla 2026-02-19 010847" src="https://github.com/user-attachments/assets/c4a2e6cc-d24f-4fed-8ff9-c31acb11c6e9" />
+<img width="540" height="338" alt="Captura de pantalla 2026-02-19 011736" src="https://github.com/user-attachments/assets/94c8b2b5-30c3-4347-9d72-7c42916de0bd" />
 
 
 ## Conclusión
